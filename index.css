@@ -1,6 +1,6 @@
 
 body {
-	background-image:url(sofia.jpg)
+	background-image:url("sofia.jpg")
 }
 h1 {
 	text-align: right;
