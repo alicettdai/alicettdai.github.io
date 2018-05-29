@@ -1,14 +1,15 @@
 
 body {
 	background-image:url(sofia.jpg);
-	background-size:cover;
+	background-position:left top
+	background-repeat:repeat;
 }
 h1 {
-	text-align: right;
-	color: blue;
-    font-family: Comic Sans MS;
+	text-align: center;
+	color: black;
+    font-family: futura;
     font-size: 150%;
-    background-color: pink;
+    background-color: white;
 	}
 p {
 	color: red;
