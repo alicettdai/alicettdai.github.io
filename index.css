@@ -10,3 +10,7 @@ h1 {
     font-size: 150%;
     background-color: white;
 	}
+p {
+	color: red;
+	background-color: white;
+}
