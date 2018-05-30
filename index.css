@@ -7,6 +7,11 @@ h1 {
 	color: black;
     font-family: futura;
     font-size: 150%;
+
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 	}
 p {
 	color: red;
@@ -31,4 +36,11 @@ a:hover {
 /* selected link */
 a:active {
     color: blue;
+}
+
+a {
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
