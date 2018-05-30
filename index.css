@@ -3,7 +3,7 @@ body {
  background:linear-gradient(to right, pink , powderblue);
 }
 h1 {
-	text-align: center;
+	text-align: left;
 	color: black;
     font-family: futura;
     font-size: 150%;
