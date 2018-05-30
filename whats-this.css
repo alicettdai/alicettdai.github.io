@@ -1,0 +1,41 @@
+
+body {
+ background:linear-gradient(to right, green , orange);
+}
+h1 {
+	text-align: left;
+	color: black;
+    font-family: futura;
+    font-size: 150%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+p {
+	color: red;
+	background-color: pink;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+a {
+    padding-left: 50px;
+}
