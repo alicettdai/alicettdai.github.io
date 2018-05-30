@@ -7,11 +7,11 @@ h1 {
 	color: black;
     font-family: futura;
     font-size: 150%;
-    padding-bottom: 10px;
+    padding-top:10px;
+    padding-left:30px;
 	}
 p {
 	color: red;
-	background-color: pink;
 }
 
 /* unvisited link */
@@ -35,5 +35,5 @@ a:active {
 }
 
 a {
-    padding-left: 50px;
+    padding-left: 30px;
 }
