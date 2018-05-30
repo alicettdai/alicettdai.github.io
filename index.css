@@ -1,8 +1,6 @@
 
 body {
-	background-image:url(sofia.jpg);
-	background-position:left top
-	background-repeat:repeat;
+ background:linear-gradient(to right, pink , powderblue);
 }
 h1 {
 	text-align: center;
