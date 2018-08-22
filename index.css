@@ -1,6 +1,7 @@
 
 body {
- background:linear-gradient(to right, pink , powderblue);
+ /*background:linear-gradient(to right, pink , powderblue);*/
+ background:white;
 }
 h1 {
 	text-align: left;
