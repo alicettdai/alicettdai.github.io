@@ -42,7 +42,7 @@ a {
 }
 
 button {
-    background-color:orange; /* Green */
+    background-color:orange; 
     border: none;
     color: white;
     padding: 5 5 5 5;
@@ -51,4 +51,10 @@ button {
     display: inline-block;
     font-family: futura;
     font-size: 150%;
+    border-radius:2px;
+}
+
+button:hover {
+    background-color: pink; 
+    color: white;
 }
