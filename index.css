@@ -45,7 +45,8 @@ a {
     background-color: orange; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding-top:10px;
+    padding-left:30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
