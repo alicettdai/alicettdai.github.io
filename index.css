@@ -45,8 +45,7 @@ button {
     background-color:orange; /* Green */
     border: none;
     color: white;
-    padding-top:10px;
-    padding-left:30px;
+    padding: 5 5 5 5;
     text-align: center;
     text-decoration: none;
     display: inline-block;
