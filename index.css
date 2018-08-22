@@ -50,5 +50,6 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-family: futura;
+    font-size: 150%;
 }
