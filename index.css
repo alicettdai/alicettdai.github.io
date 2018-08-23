@@ -15,6 +15,8 @@ h1 {
 p {
 	color: red;
     padding-left:30px;
+    font-family: futura;
+    font-size: 150%;
 }
 
 /* unvisited link */
@@ -45,7 +47,6 @@ button {
     background-color:orange; 
     border: none;
     color: white;
-    padding: 5 5 5 5;
     text-align: center;
     text-decoration: none;
     display: inline-block;
