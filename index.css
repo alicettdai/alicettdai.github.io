@@ -56,7 +56,7 @@ button {
     display: inline-block;
     font-family: futura;
     font-size: 150%;
-    padding: 0px;
+    padding: 10 10 10 10;
 }
 
 button:hover {
