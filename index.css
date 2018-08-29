@@ -1,11 +1,11 @@
 
 body {
- /*background:linear-gradient(to right, pink , powderblue);*/
- background:white;
+ background:linear-gradient(to right, pink , powderblue);
+ /*background:white;*/
 }
 h1 {
 	text-align: center;
-	color: black;
+	color: white;
     font-family: futura;
     font-size: 200%;
     padding: 10 10 10 10;
