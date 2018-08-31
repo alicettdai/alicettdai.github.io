@@ -1,2 +1,2 @@
 # alicettdai.github.io
-this is a website where i try to cram as many cool frontend coding things as possible
+This is my current personal project to program my own website using HTML, CSS, Javascript and Bootstrap Frameworks. In progress
