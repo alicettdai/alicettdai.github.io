@@ -1,26 +1,35 @@
 
 body {
- background:linear-gradient(to right, pink , powderblue);
+ background:linear-gradient(to right, white 0% , white 50%, black 50%, black 100%);
  /*background:white;*/
 }
 h1 {
 	text-align: center;
-	color: white;
+	color: black;
     font-family: futura;
     font-size: 200%;
-    padding: 10 10 10 10;
+    padding-left:28px;
    /* padding-top:10px;
     padding-left:30px; */
 	}
 /* for paragraphs */
-p {
-	color: red;
+p.black {
+	color: black;
     padding-left:30px;
     font-family: futura;
     font-size: 150%;
     padding: 0px;
-   /* padding-top:10px;
-    padding-left:30px; */
+    padding-left:30px; 
+    font-family:futura;
+}
+p.white {
+    color: white;
+    padding-left:30px;
+    font-family: futura;
+    font-size: 150%;
+    padding: 0px;
+    padding-right:30px; 
+    font-family:futura;
 }
 
 /* unvisited link */
@@ -64,4 +73,7 @@ button:hover {
     color: orange;
     border-color:orange;
     border-width
+}
+marquee {
+    font-family:futura;
 }
