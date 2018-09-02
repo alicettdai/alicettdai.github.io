@@ -8,9 +8,6 @@ h1 {
 	color: black;
     font-family: futura;
     font-size: 200%;
-    padding-left:28px;
-   /* padding-top:10px;
-    padding-left:30px; */
 	}
 /* for paragraphs */
 p.black {
@@ -30,6 +27,23 @@ p.white {
     padding: 0px;
     padding-right:30px; 
     font-family:futura;
+}
+
+p.head{
+    color: black;
+    font-family: futura;
+    font-size: 150%;
+    padding: 0px;
+    padding-left:30px; 
+    font-family:futura;
+    text-align:center;
+
+}
+
+#header{
+    background-color: #bcf442;
+    width: 100%;
+    text-align: center;
 }
 
 /* unvisited link */
