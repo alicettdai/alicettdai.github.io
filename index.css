@@ -52,25 +52,30 @@ p.head{
 /* unvisited link */
 a:link {
     color: red;
+    text-decoration:none;
 }
 
 /* visited link */
 a:visited {
     color: green;
+    text-decoration:none;
 }
 
 /* mouse over link */
 a:hover {
     color: hotpink;
+    text-decoration:none;
 }
 
 /* selected link */
 a:active {
     color: blue;
+    text-decoration:none;
 }
 
 a {
-    padding-left: 30px;
+    /*padding-left: 30px;*/
+    text-decoration:none;
 }
 
 button {
@@ -94,8 +99,8 @@ button:hover {
 
 /* Make it move */
 @keyframes marquee {
-    0%   { transform: translate(0, 0);}
-    100% { transform: translate(-100%, 0);}
+    0%   { transform: translate(-100%, 0);}
+    100% { transform: translate(0, 0);}
 }
 
 p.marquee {
@@ -154,12 +159,25 @@ p.marquee span:hover {
   justify-content: center;
   text-align:center;
   font-family:futura;
-  font-size:50px;
+  font-size:80px;
   color:white;
 }
 
-.item span:hover {
-    opacity:.8;
+.words{
+  position: absolute;
+  top: 5;
+  bottom: 5;
+  left: 5;
+  right: 5;
+  color: #bcf442;
+  font-size:50px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.item span:hover .words {
+    visibility: visible;
+    opacity:1;
 }
 
 
