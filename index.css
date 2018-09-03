@@ -1,7 +1,11 @@
 
 body {
- background:linear-gradient(to right, white 0% , white 50%, black 50%, black 100%);
- /*background:white;*/
+ /*background:linear-gradient(to right, white 0% , white 50%, black 50%, black 100%);*/
+ background:black;
+ position:fixed;   /*this makes sure that the page is only one page*/
+ height:100%;
+ width:100%;
+ max-height:98%;
 }
 h1 {
 	text-align: center;
@@ -33,16 +37,15 @@ p.head{
     color: black;
     font-family: futura;
     font-size: 150%;
-    padding: 0px;
-    padding-left:30px; 
+    padding-top: 6px; 
+    padding-bottom:6px;
     font-family:futura;
     text-align:center;
 
 }
 
-#header{
+#header {
     background-color: #bcf442;
-    width: 100%;
     text-align: center;
 }
 
@@ -88,6 +91,76 @@ button:hover {
     border-color:orange;
     border-width
 }
-marquee {
-    font-family:futura;
+
+/* Make it move */
+@keyframes marquee {
+    0%   { transform: translate(0, 0);}
+    100% { transform: translate(-100%, 0);}
 }
+
+p.marquee {
+    width: 100%;
+    margin: 0 auto;
+    z-index=-1;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family:futura;
+    background-color:black;
+    color:white;
+    animation-name:marquee;
+}
+
+p.marquee span {
+    display: inline-block;
+    padding-left: 100%;  /* show the marquee just outside the paragraph */
+    animation: marquee 12s linear infinite;
+}
+
+p.marquee span:hover {
+    animation-play-state: paused
+}
+
+/*THIS CHANGES THE GAME IT ERADICATES EXTRA PADDING*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+  /*border-style: solid;
+  border-color: red;*/
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  height:16.5%;
+  overflow:visible;
+}
+
+.grandWrapper {
+  width:100%;
+  height:100%;
+  max-height:100%;
+  /*border-style:solid;
+  border-color:red;*/
+
+}
+.item {
+ /* border-style: solid;
+  border-color: white;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  font-family:futura;
+  font-size:50px;
+  color:white;
+}
+
+.item span:hover {
+    opacity:.8;
+}
+
+
+
