@@ -1,5 +1,5 @@
 $(document).ready(function () {
-              new typeit('#element', {
+              new TypeIt('#element', {
                 speed: 45
             })
                 .type('The programers')
