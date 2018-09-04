@@ -4,7 +4,7 @@ body {
 background-color:black !important; /* use the important tag to override the default*/
 position:fixed;
 width:100%;
-height:100%;
+height:97%;
 top:0px;
 left:0px;
 z-index:1000;    
@@ -142,6 +142,7 @@ p.marquee span:hover {
   grid-gap: 10px;
   width: 100%;
   height:16.5%;
+  padding:0;
   overflow:visible;
 }
 
