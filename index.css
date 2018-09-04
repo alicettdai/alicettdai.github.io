@@ -50,6 +50,7 @@ p.head{
     position:sticky;
     background-color: #bcf442;
     text-align: center;
+    font-size:1vw; /* this makes the text dynamic to the screen*/
 }
 
 /* unvisited link */
