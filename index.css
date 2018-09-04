@@ -136,8 +136,8 @@ p.marquee span:hover {
 }
 .container-fluid {
   display: grid;
-  border-style: solid;
-  border-color: red;
+ /*border-style: solid;
+  border-color: red;*/
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   width: 100%;
@@ -155,8 +155,8 @@ p.marquee span:hover {
 
 }
 .col-lg-2 {
- border-style: solid;
-  border-color: white;
+ /*border-style: solid;
+  border-color: white;*/
   display: flex;
   align-items: center;
   justify-content: center;
