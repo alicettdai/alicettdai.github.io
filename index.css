@@ -134,11 +134,11 @@ p.marquee span:hover {
   padding: 0;
   margin: 0;
 }
-.wrapper {
+.container-fluid {
   display: grid;
-  /*border-style: solid;
-  border-color: red;*/
-  grid-template-columns: repeat(5, 1fr);
+  border-style: solid;
+  border-color: red;
+  grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
   width: 100%;
   height:16.5%;
@@ -149,19 +149,19 @@ p.marquee span:hover {
   width:100%;
   height:100%;
   max-height:100%;
-  position:absolute;
+  position:fixed;
   /*border-style:solid;
   border-color:red;*/
 
 }
-.item {
- /* border-style: solid;
-  border-color: white;*/
+.col-lg-2 {
+ border-style: solid;
+  border-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align:center;
-  font-family:courier;
+  font-family:futura;
   font-size:80px;
   color:white;
 }
@@ -178,7 +178,7 @@ p.marquee span:hover {
   opacity: 0;
 }
 
-.item span:hover .words {
+.col-lg-2 span:hover .words {
     visibility: visible;
     opacity:1;
 }
