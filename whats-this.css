@@ -1,7 +1,6 @@
 
 body {
- /*background:linear-gradient(to right, orange , green);*/
- background:white;
+ background:linear-gradient(to right, orange , green) !important;
 }
 h1 {
 	text-align: left;
