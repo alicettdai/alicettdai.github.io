@@ -36,3 +36,24 @@ $(function() {
     .type('💃')
  	.destroy()
     });
+
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("sofia.jpg")) {
+        image.src = "codeBoy.jpg";
+    }
+}
+
+function changeCity() {
+    var image = document.getElementById('SF');
+    if (image.src.match("sofia.jpg")) {
+        image.src = "SF.jpg";
+    }
+}
+
+function brazil() {
+    var image = document.getElementById('brazil');
+    if (image.src.match("sofia.jpg")) {
+        image.src = "brazil.png";
+    }
+}
