@@ -173,6 +173,8 @@ button:hover {
   font-family: 'VT323', monospace;
   font-size:80px;
   color:white;
+  animation: shake 2.5s;
+  animation-iteration-count: infinite;
 }
 
 .words{
@@ -192,6 +194,20 @@ button:hover {
     visibility: visible;
     opacity:1;
 }
+
+.col-lg-2:hover {
+ animation-play-state: paused;
+}
+   
+
+@keyframes shake {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  25% { transform: translate(3px, 0px) rotate(1deg); } 
+  50% { transform: translate(3px, 3px) rotate(-1deg); }
+  75% { transform: translate(0px, 3px) rotate(1deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
 
 
 
