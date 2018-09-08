@@ -206,7 +206,7 @@ button:hover {
 }
 
 .container-fluid{
-    opacity:.5;
+    opacity:.6;
 }
 .container-fluid:hover {
     opacity:1;
@@ -218,7 +218,6 @@ button:hover {
 
 .col-lg-2:hover {
  animation-play-state: paused;
- opacity:1;
 }
    
 
