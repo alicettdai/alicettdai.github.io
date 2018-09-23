@@ -47,7 +47,7 @@ function changeImage() {
 function changeCity() {
     var image = document.getElementById('SF');
     if (image.src.match("sofia.jpg")) {
-        image.src = "SF.jpg";
+        image.src = "sf.jpg";
     }
 }
 
